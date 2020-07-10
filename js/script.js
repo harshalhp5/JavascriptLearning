@@ -7,7 +7,7 @@ function greet (){
     console.log('Hello Harshal');
 }
 greet();
-console.log('Hello');
+
 
 // Playing with HTML
 //let result = document.getElementById("result");
