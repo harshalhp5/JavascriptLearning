@@ -1,2 +1,2 @@
-# JavascriptLearning
-JavascriptLearning
+# Javascript-Learning
+ Javascript-Learning
