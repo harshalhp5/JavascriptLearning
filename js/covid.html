@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Covid Task</title>
+
+</head>
+<body>
+
+
+        <div class=" navbar topnav-centered navbar-dark bg-dark ">
+            <a href="#home" class="active">Covid-19 Cases</a>
+        </div>
+
+
+        Enter State Name :<input id = "stateName" type="text" name = "statename" value=""><br>
+        Enter the Count :<input id = "stateCount" type="number" name = "statecount" value=""><br><br>
+
+        <button id = "add" type="button" name="Add" onclick= "addData()">Add</button>
+        
+        <table id = "dataTable" border="1">
+        
+                <tr>
+                    <td>Sr. No</td>
+
+                    <td> State Name</td>
+
+                    <td>Count</td>
+                </tr>
+        
+        </table>
+      
+
+    <script src="covid.js"> </script>
+
+   
+</body>
+</html>

@@ -10,11 +10,12 @@
     <h2>This is JAVASCRIPT DOM</h2>
 
     <p id="para"></p>
-
+    <p id = "intro">Hello Harshal</p>
     <script>
         document.getElementById("para").innerHTML = "Hello World!!" ;
-    document.baseURI
-    
+        document.getElementById("intro");
+        var x = document.getElementsByTagName("p");
+        document.getElementById('para').innerHTML = 'First word is = ' + x[0].innerHTML;
     </script>
 </body>
 </html>
