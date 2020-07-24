@@ -38,7 +38,6 @@ http.onload = () => {
   		cell1.innerHTML = dataArray[i].first_name;
   		cell2.innerHTML = dataArray[i].last_name;
 		cell3.innerHTML = dataArray[i].email;
-		//cell4.innerHTML = <img src='"+ dataArray[i].avatar +"'>;		
 		cell4.innerHTML = "<img src='"+ dataArray[i].avatar +"'>";		
 
 
